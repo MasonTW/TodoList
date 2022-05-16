@@ -8,7 +8,7 @@ import javax.persistence.ManyToOne
 
 
 @Entity
-class Task (
+data class Task (
     @Id @GeneratedValue var id: Long? = null,
     var title: String,
     var content: String,
